@@ -1,0 +1,7 @@
+gcc pthread_matrix1.c -o mtx -lpthread -lrt
+./mtx 5
+
+
+Duration of execution = 4.837671e-03 seconds 
+Now checking the results
+Matrix multiplication and verification of results is successful

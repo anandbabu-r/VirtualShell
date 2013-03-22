@@ -1,0 +1,9 @@
+gcc daemon.c -o dmn -lpthread -lrt
+
+./dmn
+
+
+
+go to /tmp/avinashgs1/
+
+tail -f gbsd.log

@@ -1,0 +1,22 @@
+gcc shm_msgsvr.c -o srv -lpthread -lrt
+gcc shm_msgcli.c -o cli -lpthread -lrt
+sh check.sh 
+
+./srv
+
+
+Open multiple clients and enter the value of n:
+./cli 4
+
+./cli 5
+
+./cli 9
+
+
+
+
+to open the log file
+cd /tmp/avinashgs1/
+
+tail -f gbsd.log
+
